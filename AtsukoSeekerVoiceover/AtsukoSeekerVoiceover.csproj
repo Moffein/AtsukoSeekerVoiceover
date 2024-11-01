@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="atsukoseekerbundle" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="atsukoseekerbundle" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>libs\BepInEx\0Harmony.dll</HintPath>
     </Reference>

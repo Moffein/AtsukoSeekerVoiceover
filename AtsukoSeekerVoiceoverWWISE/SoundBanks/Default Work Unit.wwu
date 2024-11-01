@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CFAFFC93-9B54-47CB-A347-C575515EACE0}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{CFAFFC93-9B54-47CB-A347-C575515EACE0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CFAFFC93-9B54-47CB-A347-C575515EACE0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AtsukoSeekerSoundbank" ID="{FCCAE011-4497-4B55-AA55-014C5BAC863B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_AtsukoSeeker_Relationship_3" ID="{362B61EC-E137-4055-AA09-4AFB568A9B4A}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_AcquireScepter" ID="{3385CCD4-D206-4183-AE27-0036448E5DDF}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Relationship_1" ID="{1873DAAF-B480-41B6-925D-3DFF6309CBF5}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ExSkill_Level_2" ID="{E7B444EA-426E-41E3-80FB-90141F4E0A0E}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ExSkill_Level_3" ID="{6AD598D7-3607-420F-BCCA-E6172F797953}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Move" ID="{0C0E69CF-C49D-4261-B7F5-072EE1C5E0C6}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_LevelUp_3" ID="{D177FCD8-1CFB-4330-8B40-26A8180BBC86}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_BadItem" ID="{45659AB9-DDC2-4342-9292-7862534BD8D6}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ExSkill_Level_1" ID="{09D2E1F8-3174-43D8-B31E-DEC25F735850}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Flower" ID="{17BC7D75-050A-4400-A01F-A9E5F05CBE0D}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ExSkill_1" ID="{7DC2FCC2-01D6-44A4-8B76-E13B5031834F}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Lobby_Newyear" ID="{6B0032D2-E8E5-44CB-84E1-9DE7C4D3E83F}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Memorial" ID="{D73C4F1B-FA4F-453F-B6B9-0388A008DA0F}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_LowHealth_1" ID="{7026F1AD-0CDD-4558-BA9C-8E0E0BCBD7E2}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Spawn" ID="{BFA4CC1D-CCF1-45BB-8AF3-C8716A98989E}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Lobby_bday" ID="{54FA457E-26EA-477D-A30D-49C369ECD1E5}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ExSkill_2" ID="{75A4A531-607A-4832-9BAA-568FA492BB5C}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Shout" ID="{A0D02B2C-90E2-490D-AAA8-822A118664B1}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_TitleDrop" ID="{4865DC60-348D-494E-A105-924D7C2CEF5A}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ShrineFail" ID="{0A2E9F97-C7C2-4964-8B4A-CC7C5E966727}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Victory" ID="{413CDB82-4D36-4990-AFFB-997D681BFBCE}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Lobby" ID="{2664D143-F87E-49EB-A00F-8D5D4E54FC88}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_LevelUp_1" ID="{06DEAA5B-5445-4A66-AB2D-D58E0D111D58}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Hurt" ID="{9047566C-A11E-4B4A-8897-C887F925B006}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Lobby_Halloween" ID="{0ACDE268-0A96-4B56-A883-1641D69B8D0C}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_LowHealth_2" ID="{CD14CA67-63C4-4C57-BA30-26FF651BF3AE}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_TeleStart" ID="{340BD22A-2C45-4C5B-BEDF-812150E7D493}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_ExSkill_3" ID="{9435D64B-BB44-4CAF-A6A4-B278386703C4}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Defeat" ID="{8628595C-4B37-4CE9-8872-38F02952E85E}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Muda" ID="{FD061D35-9199-4D9F-982B-28C7115A6F4C}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_LevelUp_2" ID="{B51736DD-D5CD-4DA3-B902-0B4488E5396D}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Relationship_2" ID="{9F623A8F-104D-4DBE-83D6-FE72666BDBD0}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_LevelUp_4" ID="{DFEB8D34-7200-4E7F-82EB-98EF531B12D8}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Relationship_4" ID="{F0EC7568-A36E-4E90-ADCE-D1375F15C06C}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Lobby_xmas" ID="{D087CCE0-9CEC-4EC1-B372-2D0985F033D8}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AtsukoSeeker_Move_Long" ID="{B2BD1AB9-EC26-4F33-AFB5-D70C976289AE}" WorkUnitID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -29,6 +29,1627 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Atsuko_Title" ID="{664C0101-70FF-4AA7-BE98-A1D0CF70C6F5}" ShortID="395223448">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Title" ID="{14904EEB-6B68-4761-B307-62851861066E}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Title.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268281654"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Title" ID="{14904EEB-6B68-4761-B307-62851861066E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Lobby" ID="{2C1460E9-E115-497F-AF06-D6B7F0DB22A4}" ShortID="477432970">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Lobby_1" ID="{E1D3A690-CDBF-4046-9855-1C74EDDFB8C1}" ShortID="282758168">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Lobby_1" ID="{31B64431-A3F1-4228-8FFE-F377E4CFF9CB}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Lobby_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="534327735"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Lobby_1" ID="{31B64431-A3F1-4228-8FFE-F377E4CFF9CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Lobby_2" ID="{B949F096-70FA-40DF-9149-7D2682ACAEB7}" ShortID="800640282">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Lobby_2" ID="{0DD521BD-A7A2-40B2-8DF3-E52167EB8D53}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Lobby_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="97411627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Lobby_2" ID="{0DD521BD-A7A2-40B2-8DF3-E52167EB8D53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Lobby_3" ID="{64B21649-3F11-42F8-A0BA-A2356922C6E3}" ShortID="319059513">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Lobby_3" ID="{60A516F8-9E4C-4B53-9220-A946201A704C}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Lobby_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="829235232"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Lobby_3" ID="{60A516F8-9E4C-4B53-9220-A946201A704C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Lobby_4" ID="{19DF6664-C70B-4F64-ACDE-5869A58ABC67}" ShortID="617173557">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Lobby_4" ID="{7B5FE543-1A6E-4E9A-879C-4B98E0924970}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Lobby_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="139656776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Lobby_4" ID="{7B5FE543-1A6E-4E9A-879C-4B98E0924970}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Lobby_5" ID="{731C5E81-6EF1-49FC-853E-EAE7AD59D3A1}" ShortID="529783565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Lobby_5" ID="{AEB5AB9B-C3ED-4A59-A29F-D12D22B979C0}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Lobby_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="721207505"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Lobby_5" ID="{AEB5AB9B-C3ED-4A59-A29F-D12D22B979C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_LogIn_1" ID="{0475E98C-CDC9-4ADE-9731-1EE50E761FC3}" ShortID="956865338">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_LogIn_1" ID="{5DAAA670-7296-4358-AEC1-2090BA5449E3}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_LogIn_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941616078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_LogIn_1" ID="{5DAAA670-7296-4358-AEC1-2090BA5449E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_LogIn_2" ID="{40172043-B1BF-46CF-BD5C-DD470174AEF7}" ShortID="928299329">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_LogIn_2" ID="{76488C66-007F-45C2-AACD-D826CFB73DDE}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_LogIn_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="164558568"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_LogIn_2" ID="{76488C66-007F-45C2-AACD-D826CFB73DDE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_Season_Halloween" ID="{9EB4109F-5C03-4A2D-A5BB-48B62885A53A}" ShortID="680141164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Season_Halloween" ID="{D37B0CE5-F29A-44AE-BF82-520284448AD3}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Season_Halloween.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="234774631"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Season_Halloween" ID="{D37B0CE5-F29A-44AE-BF82-520284448AD3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Season_NewYear" ID="{715329B1-D471-4783-A947-6E77E326C9CA}" ShortID="299374931">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Season_NewYear" ID="{5D365B9D-0A76-4958-BEAC-DBD8D9630943}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Season_NewYear.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="436124741"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Season_NewYear" ID="{5D365B9D-0A76-4958-BEAC-DBD8D9630943}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Season_Xmas" ID="{AC387B8D-C627-40F4-A98B-CF112E4C6986}" ShortID="537391121">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Season_Xmas" ID="{1A7F654B-E368-4E3F-A4D2-AA87BC6BFE9A}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Season_Xmas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390205685"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Season_Xmas" ID="{1A7F654B-E368-4E3F-A4D2-AA87BC6BFE9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Atsuko_Season_bday" ID="{314F5011-8570-4300-B5FB-946E81FE76AA}" ShortID="323671044">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Season_Birthday1_1" ID="{F364DE15-46C1-47A5-8551-D485ADD7EB01}" ShortID="638049866">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Season_Birthday1_1" ID="{6DC57B52-3418-4109-96D3-8C454CB9CAA3}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Season_Birthday1_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="480888603"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Season_Birthday1_1" ID="{6DC57B52-3418-4109-96D3-8C454CB9CAA3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Season_Birthday1_2" ID="{2C25224C-D602-4B12-A0C6-E4EFF72B5DFD}" ShortID="406717650">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Season_Birthday1_2" ID="{C03ACCA6-A0EF-441B-A09F-71C5D1BC4074}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Season_Birthday1_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311189450"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Season_Birthday1_2" ID="{C03ACCA6-A0EF-441B-A09F-71C5D1BC4074}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Atsuko_Season_Birthday1_1" ID="{F364DE15-46C1-47A5-8551-D485ADD7EB01}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Atsuko_Season_Birthday1_2" ID="{2C25224C-D602-4B12-A0C6-E4EFF72B5DFD}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Defeat" ID="{5C7AD0F3-F8D3-44B6-96B8-57C1213457E1}" ShortID="466432837">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Tactic_Defeat_1" ID="{2902C2B8-014D-4D5F-9E85-309732411262}" ShortID="414146946">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Tactic_Defeat_1" ID="{9AE23259-A5DD-4FEB-B5BA-723BE2F93472}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Tactic_Defeat_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1044940649"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Tactic_Defeat_1" ID="{9AE23259-A5DD-4FEB-B5BA-723BE2F93472}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Tactic_Defeat_2" ID="{C768A940-D149-4AAE-A677-6E16DE92DAFF}" ShortID="866669491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Tactic_Defeat_2" ID="{0CF7F28A-592D-46E3-92E5-BBF1AA7EE4A0}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Tactic_Defeat_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="10553645"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Tactic_Defeat_2" ID="{0CF7F28A-592D-46E3-92E5-BBF1AA7EE4A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Retire" ID="{F8D38A69-EDB4-4BBA-BA0C-3DDD0A8B8254}" ShortID="575527011">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Retire" ID="{50DE9B19-C6B5-441D-B0C2-FBCE1721A311}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Retire.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="442628653"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Retire" ID="{50DE9B19-C6B5-441D-B0C2-FBCE1721A311}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_Battle_Defense_1" ID="{B2723BC8-C868-4E5D-A566-EEC5409AC584}" ShortID="740518003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Battle_Defense_1" ID="{A484714B-B148-4C52-B5AE-DECB94408683}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Battle_Defense_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169347368"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Battle_Defense_1" ID="{A484714B-B148-4C52-B5AE-DECB94408683}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Growup_1" ID="{F65ED5B5-89F7-4551-BB26-DD9A3FA1D064}" ShortID="110117773">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Growup_1" ID="{63E3E135-6F03-492B-8FE2-83F8440320B6}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Growup_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="667622050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Growup_1" ID="{63E3E135-6F03-492B-8FE2-83F8440320B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Growup_2" ID="{5084EF50-D00D-464F-9CC9-E9791C90A00D}" ShortID="969114968">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Growup_2" ID="{BA3E58F2-AA5D-4102-B5FB-3A2BEF9AD6D3}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Growup_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="669040433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Growup_2" ID="{BA3E58F2-AA5D-4102-B5FB-3A2BEF9AD6D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Growup_3" ID="{4AA46F78-EF80-4FE5-985C-34E1BDE15C2B}" ShortID="834063013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Growup_3" ID="{ABCAAD9D-2A35-4668-8B50-BBBD52707050}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Growup_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="142930077"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Growup_3" ID="{ABCAAD9D-2A35-4668-8B50-BBBD52707050}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Growup_4" ID="{215F9F52-CC55-40F7-A13C-4A3F5FD93839}" ShortID="766630070">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Growup_4" ID="{FC7A03B0-4159-4186-BAB1-83907C78FC0D}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Growup_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226892006"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Growup_4" ID="{FC7A03B0-4159-4186-BAB1-83907C78FC0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Victory" ID="{AED698B4-E492-401C-9FA9-F4AAE3771DF3}" ShortID="555764029">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Battle_Victory_1" ID="{97CAD676-9646-4C9C-84F7-4D53A1CE25C9}" ShortID="49802887">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Victory_1" ID="{0B0E03FD-BA60-4E80-836D-4F47CC26636A}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Victory_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="749274826"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Victory_1" ID="{0B0E03FD-BA60-4E80-836D-4F47CC26636A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Victory_2" ID="{2CF155D5-E59D-43E3-B6F7-DB831882E0F8}" ShortID="742838775">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Victory_2" ID="{E3AD411E-A4D3-4821-8047-9573CD20E706}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Victory_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="942928533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Victory_2" ID="{E3AD411E-A4D3-4821-8047-9573CD20E706}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Tactic_Victory_1" ID="{32E5E8C7-54E6-459C-A6FA-866D13C1699E}" ShortID="663609578">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Tactic_Victory_1" ID="{1616FB69-D001-40DA-9CA7-42A6D984E27E}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Tactic_Victory_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="23938144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Tactic_Victory_1" ID="{1616FB69-D001-40DA-9CA7-42A6D984E27E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Tactic_Victory_2" ID="{BAEDBA2D-AF76-4CA1-BDE0-DA072EDC8B4B}" ShortID="686281391">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Tactic_Victory_2" ID="{07CA2246-A4BD-4D3B-B362-B01824B01430}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Tactic_Victory_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="511298571"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Tactic_Victory_2" ID="{07CA2246-A4BD-4D3B-B362-B01824B01430}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_ExWeapon_Get" ID="{5BC1D2F8-BB3D-44F5-806E-FEC18C3C20AC}" ShortID="1008356265">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExWeapon_Get" ID="{6B3E4796-8BE1-480D-A978-ECE4AE6078B3}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExWeapon_Get.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22193290"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExWeapon_Get" ID="{6B3E4796-8BE1-480D-A978-ECE4AE6078B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Relationship_Up_1" ID="{99557D46-B4C3-410E-B2D1-3893F950B66D}" ShortID="676746079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Relationship_Up_1" ID="{A5734466-D43D-4B43-86B6-B990550BE19E}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Relationship_Up_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="616980279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Relationship_Up_1" ID="{A5734466-D43D-4B43-86B6-B990550BE19E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Relationship_Up_2" ID="{6E36F243-2C7C-4225-9179-6C7980E08974}" ShortID="69115728">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Relationship_Up_2" ID="{BB6DD862-4603-4E3E-83DE-227208D83372}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Relationship_Up_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="488601285"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Relationship_Up_2" ID="{BB6DD862-4603-4E3E-83DE-227208D83372}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Relationship_Up_3" ID="{C3A97BDA-E262-4EA9-9A28-70BD0C159768}" ShortID="691586170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Relationship_Up_3" ID="{9FD026C4-35F1-48EA-8876-7CF4BAEA544C}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Relationship_Up_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="117788760"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Relationship_Up_3" ID="{9FD026C4-35F1-48EA-8876-7CF4BAEA544C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Relationship_Up_4" ID="{4920C055-8699-4CF5-955A-E50F0071025C}" ShortID="553212058">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Relationship_Up_4" ID="{00674054-7565-4685-9384-5ADEC9194357}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Relationship_Up_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="452936474"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Relationship_Up_4" ID="{00674054-7565-4685-9384-5ADEC9194357}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Shout" ID="{1F0CCF2B-569F-4E7D-9B78-AAC915A0532C}" ShortID="897335514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Battle_Shout_1" ID="{1CB3BAAF-77D3-45A7-866F-1A8804186CDD}" ShortID="882221729">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Shout_1" ID="{65B9B11F-6DBC-426B-A6F1-75E2D187C788}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Shout_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="829238189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Shout_1" ID="{65B9B11F-6DBC-426B-A6F1-75E2D187C788}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Shout_2" ID="{032F6DD0-589C-4A84-88C5-14A131E8FF98}" ShortID="355539463">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Shout_2" ID="{A46460E7-92D9-4E0A-A3EC-2595529BCD72}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Shout_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="116544224"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Shout_2" ID="{A46460E7-92D9-4E0A-A3EC-2595529BCD72}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Shout_3" ID="{668E2872-5D53-4914-B487-099CFFC45375}" ShortID="735384644">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Shout_3" ID="{6E614AF1-F7CB-4F9E-AF82-F942AE3FF51C}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Shout_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="472630223"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Shout_3" ID="{6E614AF1-F7CB-4F9E-AF82-F942AE3FF51C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spawn" ID="{6E73D7CA-3AEE-4E94-AE7E-85BE2220E932}" ShortID="804449613">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Battle_In_1" ID="{EAA1E49F-E830-4BB9-B975-96CAB1294B7B}" ShortID="709617502">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_In_1" ID="{DD2DB4B1-D2BA-4F36-ABD9-203A37A28B4D}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8534453"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_In_1" ID="{DD2DB4B1-D2BA-4F36-ABD9-203A37A28B4D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_In_2" ID="{1205FED0-0104-43A5-910C-D4A7617A722D}" ShortID="620640344">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_In_2" ID="{4EBC9240-C7D6-4F01-8683-83F4542A9139}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="3124325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_In_2" ID="{4EBC9240-C7D6-4F01-8683-83F4542A9139}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Tactic_In_1" ID="{27B72747-50D1-403C-8CE9-69CB120F7E21}" ShortID="38607209">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Tactic_In_1" ID="{530B3A20-6A77-4378-9EC2-EA66B87B0F5E}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Tactic_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="871587419"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Tactic_In_1" ID="{530B3A20-6A77-4378-9EC2-EA66B87B0F5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Tactic_In_2" ID="{E573F3D1-EFFD-4950-91FD-D994CA38B7FF}" ShortID="331373536">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Tactic_In_2" ID="{22E6CCD1-FE94-490B-8738-4D65E368965E}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Tactic_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127811997"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Tactic_In_2" ID="{22E6CCD1-FE94-490B-8738-4D65E368965E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Hurt" ID="{04644A3D-79C5-498A-B32A-2960D3BA247F}" ShortID="221183922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Battle_Damage_1" ID="{260D283E-4182-42EB-B825-1F0285BC4E7C}" ShortID="60161536">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Damage_1" ID="{447224C1-9EFD-4227-BCA8-3B6A80C6B97E}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Damage_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1011165227"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Damage_1" ID="{447224C1-9EFD-4227-BCA8-3B6A80C6B97E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Damage_2" ID="{97349522-BAAD-4061-A5FA-7C80405A7506}" ShortID="418947442">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Damage_2" ID="{33DD0BB7-47C0-46C2-8392-1E9D8C0E1984}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Damage_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1020154595"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Damage_2" ID="{33DD0BB7-47C0-46C2-8392-1E9D8C0E1984}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_Battle_BuffSelf_1" ID="{E2F62FC4-6D27-4913-9441-B50304B8AADB}" ShortID="28374651">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Battle_BuffSelf_1" ID="{1062FE88-8963-4135-BEA3-7C2FB78E1FD3}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Battle_BuffSelf_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558877957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Battle_BuffSelf_1" ID="{1062FE88-8963-4135-BEA3-7C2FB78E1FD3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_Battle_Damage_3" ID="{46D50977-4B43-4D33-9E8A-DC6A874609F5}" ShortID="669329431">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Battle_Damage_3" ID="{332C92E5-1FEB-47E5-BA49-33205229B0E7}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Battle_Damage_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="759244684"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Battle_Damage_3" ID="{332C92E5-1FEB-47E5-BA49-33205229B0E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="MemorialLobby" ID="{0C45494C-ED92-4732-AFC4-9C53B90A6F91}" ShortID="1046089667">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_MemorialLobby_1_1" ID="{CA5845E3-A1C3-4DA2-9D64-FD39A829F935}" ShortID="701058283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_MemorialLobby_1_1" ID="{78098433-48AE-4B58-9DB2-027AEE69D897}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_MemorialLobby_1_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1056327141"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_MemorialLobby_1_1" ID="{78098433-48AE-4B58-9DB2-027AEE69D897}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_MemorialLobby_1_2" ID="{F9C0419F-435E-42E9-ADD6-CA5C0AA6752B}" ShortID="373771136">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_MemorialLobby_1_2" ID="{B78E718B-8A8B-49E2-9AC3-A8D229EEB299}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_MemorialLobby_1_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="571708410"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_MemorialLobby_1_2" ID="{B78E718B-8A8B-49E2-9AC3-A8D229EEB299}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_MemorialLobby_2_1" ID="{52FAC0C1-9F6E-4A16-96E2-2F29C74BE78B}" ShortID="888437015">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_MemorialLobby_2_1" ID="{F7FD6839-A2D3-4CF9-A6A1-DBDA078F4A17}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_MemorialLobby_2_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="644890309"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_MemorialLobby_2_1" ID="{F7FD6839-A2D3-4CF9-A6A1-DBDA078F4A17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_MemorialLobby_2_2" ID="{1974A5A3-CA64-4134-B10E-61360CCC072D}" ShortID="187185228">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_MemorialLobby_2_2" ID="{DC3D4759-BC81-45AB-ADCF-E80EB625ABB0}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_MemorialLobby_2_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="568425652"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_MemorialLobby_2_2" ID="{DC3D4759-BC81-45AB-ADCF-E80EB625ABB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_MemorialLobby_3" ID="{BAE80BB5-29D7-4EA3-BF53-956FBA6A37DF}" ShortID="101421133">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_MemorialLobby_3" ID="{9225AEC2-CB57-4554-9D67-7C0BF70097B8}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_MemorialLobby_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="367947883"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_MemorialLobby_3" ID="{9225AEC2-CB57-4554-9D67-7C0BF70097B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_MemorialLobby_4" ID="{704BBEC6-A54E-4584-9364-3AE0128C7737}" ShortID="172897088">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_MemorialLobby_4" ID="{5CC6E890-A403-4388-BBBA-8D30872161F8}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_MemorialLobby_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="903369957"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_MemorialLobby_4" ID="{5CC6E890-A403-4388-BBBA-8D30872161F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Atsuko_MemorialLobby_1_1" ID="{CA5845E3-A1C3-4DA2-9D64-FD39A829F935}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Atsuko_MemorialLobby_1_2" ID="{F9C0419F-435E-42E9-ADD6-CA5C0AA6752B}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Atsuko_MemorialLobby_2_1" ID="{52FAC0C1-9F6E-4A16-96E2-2F29C74BE78B}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Atsuko_MemorialLobby_2_2" ID="{1974A5A3-CA64-4134-B10E-61360CCC072D}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Atsuko_MemorialLobby_3" ID="{BAE80BB5-29D7-4EA3-BF53-956FBA6A37DF}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Atsuko_MemorialLobby_4" ID="{704BBEC6-A54E-4584-9364-3AE0128C7737}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_Tactic_Defeat_2" ID="{E5BCD830-7CA3-415A-A3C7-A2191CDB1A23}" ShortID="227551181">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Tactic_Defeat_2" ID="{49E3B693-54CE-44CA-B6C8-1F866B8A02C4}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Tactic_Defeat_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="10553645"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Tactic_Defeat_2" ID="{49E3B693-54CE-44CA-B6C8-1F866B8A02C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="TeleporterStart" ID="{EC4E262F-4E4E-4E8F-B3FE-7430999C968D}" ShortID="5221868">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_ExSkill_Level_1" ID="{8CB9BFF0-2872-4F21-8497-6A9251E4F13A}" ShortID="310851212">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_ExSkill_Level_1" ID="{8B63131C-D45F-4CA0-AA44-C1DF650770E2}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_ExSkill_Level_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="92097923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_ExSkill_Level_1" ID="{8B63131C-D45F-4CA0-AA44-C1DF650770E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_ExSkill_Level_2" ID="{A52B592C-6923-4EFF-9B7B-277DE62CB799}" ShortID="518383330">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_ExSkill_Level_2" ID="{6DCC5FB2-881E-4DBE-80A4-5CC291D5F1E3}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_ExSkill_Level_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="564364301"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_ExSkill_Level_2" ID="{6DCC5FB2-881E-4DBE-80A4-5CC291D5F1E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_ExSkill_Level_3" ID="{6B5F5BA5-6ABF-4952-88D5-EB9D64377E72}" ShortID="798990036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_ExSkill_Level_3" ID="{033D4AD6-1FCA-4FA7-B5AC-65A111ED8303}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_ExSkill_Level_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="786226319"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_ExSkill_Level_3" ID="{033D4AD6-1FCA-4FA7-B5AC-65A111ED8303}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_Battle_TacticalAction_1" ID="{FF8234C3-7F4F-4AAB-8827-6A90C47680EC}" ShortID="760902668">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_Battle_TacticalAction_1" ID="{9F76116B-D1F9-4539-90F0-29C80129F889}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_Battle_TacticalAction_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657204318"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_Battle_TacticalAction_1" ID="{9F76116B-D1F9-4539-90F0-29C80129F889}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Move" ID="{E0C4CCB9-C1CD-4CC6-86F6-283BC99DDEDC}" ShortID="640442178">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Battle_In_2" ID="{F9C45956-4BF8-47FB-A4C4-E54955A97E6D}" ShortID="155608472">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_In_2" ID="{34F68A1E-D7D6-4D37-9DAF-D6EA1C4C68A7}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="3124325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_In_2" ID="{34F68A1E-D7D6-4D37-9DAF-D6EA1C4C68A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Move_1" ID="{9A482FAE-2388-45F2-A13F-581DF0F5A322}" ShortID="163046349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Move_1" ID="{1C377573-73ED-4207-BA6B-19174E83D478}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Move_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="229821933"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Move_1" ID="{1C377573-73ED-4207-BA6B-19174E83D478}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Battle_Move_2" ID="{5657F62B-61B4-47B8-A45B-8CB19F9E9644}" ShortID="985822826">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Battle_Move_2" ID="{466C3E25-B3A3-4EFD-9ECB-FB0F4B649C82}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Battle_Move_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="754379106"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Battle_Move_2" ID="{466C3E25-B3A3-4EFD-9ECB-FB0F4B649C82}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Flower" ID="{5F167980-634C-4E87-8FCD-265D02D00DBE}" ShortID="570168485">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Cafe_monolog_5" ID="{AF9DEEE3-85C5-4CE2-B270-14356B1F99BA}" ShortID="22847985">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Cafe_monolog_5" ID="{19F8E6D9-8D77-4DE6-B788-4C546C7D1C91}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Cafe_monolog_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="446463185"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Cafe_monolog_5" ID="{19F8E6D9-8D77-4DE6-B788-4C546C7D1C91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Lobby_2" ID="{A20D3FB4-8879-4034-9213-AFD87B466F1D}" ShortID="234854713">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Lobby_2" ID="{6E19A416-2F5B-46E5-B255-571F778A7A4B}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Lobby_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="97411627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Lobby_2" ID="{6E19A416-2F5B-46E5-B255-571F778A7A4B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="BadItem" ID="{F9AB6751-5AAD-40FA-8AA3-E088714FC861}" ShortID="231236784">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Atsuko_Cafe_monolog_2" ID="{60768425-A096-41FB-8B72-5D5A859D2B6F}" ShortID="956805385">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Cafe_monolog_2" ID="{6194D921-6D8C-4361-B402-171FA70373E1}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Cafe_monolog_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="197227809"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Cafe_monolog_2" ID="{6194D921-6D8C-4361-B402-171FA70373E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Atsuko_Formation_Select" ID="{A3DC0FCD-5915-4C6C-AE82-87F137660D28}" ShortID="94930213">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Atsuko_Formation_Select" ID="{CA1D01F6-0FBF-4634-86A9-003772B038F3}">
+													<Language>SFX</Language>
+													<AudioFile>Atsuko_Formation_Select.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="883065518"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Atsuko_Formation_Select" ID="{CA1D01F6-0FBF-4634-86A9-003772B038F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Atsuko_ExSkill_1" ID="{9C608EE9-63B5-486F-9F30-D33843734411}" ShortID="231774120">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExSkill_1" ID="{884D319A-6FEE-4641-B3A0-EE7A968F087E}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExSkill_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="153507138"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExSkill_1" ID="{884D319A-6FEE-4641-B3A0-EE7A968F087E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_ExSkill_2" ID="{D162FE38-BFE3-4C82-A3C3-48627F86C43E}" ShortID="526800759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExSkill_2" ID="{0BE98405-7F3F-487E-B707-D6D737325F56}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExSkill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="494136993"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExSkill_2" ID="{0BE98405-7F3F-487E-B707-D6D737325F56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_ExSkill_3" ID="{82873D09-8E07-40C0-A81B-2BF9CDB44471}" ShortID="548801259">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExSkill_3" ID="{73ADB0B4-8821-41B5-B611-62FB2EE39F06}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653006506"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExSkill_3" ID="{73ADB0B4-8821-41B5-B611-62FB2EE39F06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_ExSkill_Level_1" ID="{B4C4EF2E-D478-4CF3-B5B0-8AE7E9B19341}" ShortID="364704190">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExSkill_Level_1" ID="{DC232846-C965-476A-B6D6-769753D2E484}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExSkill_Level_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92097923"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExSkill_Level_1" ID="{DC232846-C965-476A-B6D6-769753D2E484}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_ExSkill_Level_2" ID="{ACD411E2-F531-4887-88A3-4FDF88CFDC67}" ShortID="917132435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExSkill_Level_2" ID="{2F23A069-EB49-4EA5-BBF9-4F39B5BDEF5D}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExSkill_Level_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="564364301"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExSkill_Level_2" ID="{2F23A069-EB49-4EA5-BBF9-4F39B5BDEF5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Atsuko_ExSkill_Level_3" ID="{70F6CEEE-5174-4873-AB86-A308BE0C5BBE}" ShortID="63307880">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{655F8072-624F-4B0E-9F8D-E376BCDDE947}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDBEA066-7960-42A7-8375-C0555520F2E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Atsuko_ExSkill_Level_3" ID="{9A6D1D82-EA9F-4737-9BE2-6216A931F969}">
+											<Language>SFX</Language>
+											<AudioFile>Atsuko_ExSkill_Level_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="786226319"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Atsuko_ExSkill_Level_3" ID="{9A6D1D82-EA9F-4737-9BE2-6216A931F969}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists>

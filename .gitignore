@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Original Voicelines
+/WAV Convert
+/AtsukoSeekerVoiceoverWWISE/GeneratedSoundBanks

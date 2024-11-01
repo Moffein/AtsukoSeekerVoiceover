@@ -1,6 +1,405 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0526EA7C-C3BF-45B3-BA82-C6BABAB460C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_AtsukoSeeker_TitleDrop" ID="{4865DC60-348D-494E-A105-924D7C2CEF5A}">
+					<ChildrenList>
+						<Action Name="" ID="{A8AE07E9-194F-41B5-93D6-FE98C3FD5552}" ShortID="211387017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Title" ID="{664C0101-70FF-4AA7-BE98-A1D0CF70C6F5}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Lobby" ID="{2664D143-F87E-49EB-A00F-8D5D4E54FC88}">
+					<ChildrenList>
+						<Action Name="" ID="{C08AF2ED-94EA-438C-AC58-8C6BB693457E}" ShortID="428581449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lobby" ID="{2C1460E9-E115-497F-AF06-D6B7F0DB22A4}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Lobby_Halloween" ID="{0ACDE268-0A96-4B56-A883-1641D69B8D0C}">
+					<ChildrenList>
+						<Action Name="" ID="{8C6B75F8-DEB7-4722-98A7-0A61B7A481D5}" ShortID="864233667">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Season_Halloween" ID="{9EB4109F-5C03-4A2D-A5BB-48B62885A53A}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Lobby_bday" ID="{54FA457E-26EA-477D-A30D-49C369ECD1E5}">
+					<ChildrenList>
+						<Action Name="" ID="{13947D8A-6105-4AD1-AA6C-D33F7B9C7579}" ShortID="590969741">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Season_bday" ID="{314F5011-8570-4300-B5FB-946E81FE76AA}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Lobby_xmas" ID="{D087CCE0-9CEC-4EC1-B372-2D0985F033D8}">
+					<ChildrenList>
+						<Action Name="" ID="{601F3D53-90C2-4CA4-B632-D0039E95D549}" ShortID="713659401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Season_Xmas" ID="{AC387B8D-C627-40F4-A98B-CF112E4C6986}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Lobby_Newyear" ID="{6B0032D2-E8E5-44CB-84E1-9DE7C4D3E83F}">
+					<ChildrenList>
+						<Action Name="" ID="{831426B1-29B5-4321-8140-656B3D0E9518}" ShortID="415127670">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Season_NewYear" ID="{715329B1-D471-4783-A947-6E77E326C9CA}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Defeat" ID="{8628595C-4B37-4CE9-8872-38F02952E85E}">
+					<ChildrenList>
+						<Action Name="" ID="{4BDD67A0-415B-4F5A-A8CF-593041C960F8}" ShortID="220352864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Defeat" ID="{5C7AD0F3-F8D3-44B6-96B8-57C1213457E1}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Muda" ID="{FD061D35-9199-4D9F-982B-28C7115A6F4C}">
+					<ChildrenList>
+						<Action Name="" ID="{1C7371F4-C1B0-48A9-8B99-8066D06E03B0}" ShortID="524275917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Battle_Defense_1" ID="{B2723BC8-C868-4E5D-A566-EEC5409AC584}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_LevelUp_1" ID="{06DEAA5B-5445-4A66-AB2D-D58E0D111D58}">
+					<ChildrenList>
+						<Action Name="" ID="{537929A7-739B-4BF0-B28D-6A684A702E75}" ShortID="198048639">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Growup_1" ID="{F65ED5B5-89F7-4551-BB26-DD9A3FA1D064}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_LevelUp_2" ID="{B51736DD-D5CD-4DA3-B902-0B4488E5396D}">
+					<ChildrenList>
+						<Action Name="" ID="{7110FE18-7465-40B9-81AE-F33C963F9C39}" ShortID="1026968730">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Growup_2" ID="{5084EF50-D00D-464F-9CC9-E9791C90A00D}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_LevelUp_3" ID="{D177FCD8-1CFB-4330-8B40-26A8180BBC86}">
+					<ChildrenList>
+						<Action Name="" ID="{94A85745-3C2C-447F-9BE8-D22975ECF326}" ShortID="992089125">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Growup_3" ID="{4AA46F78-EF80-4FE5-985C-34E1BDE15C2B}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_LevelUp_4" ID="{DFEB8D34-7200-4E7F-82EB-98EF531B12D8}">
+					<ChildrenList>
+						<Action Name="" ID="{678C5E78-6CAD-40EB-A3AA-FCCDF0261B3F}" ShortID="320936694">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Growup_4" ID="{215F9F52-CC55-40F7-A13C-4A3F5FD93839}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Victory" ID="{413CDB82-4D36-4990-AFFB-997D681BFBCE}">
+					<ChildrenList>
+						<Action Name="" ID="{A45A63FE-0060-4B6F-9FC2-31C921695265}" ShortID="261606967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{AED698B4-E492-401C-9FA9-F4AAE3771DF3}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_AcquireScepter" ID="{3385CCD4-D206-4183-AE27-0036448E5DDF}">
+					<ChildrenList>
+						<Action Name="" ID="{DD6ECEAF-A82F-4604-9A07-15AE055B3BC4}" ShortID="216576116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExWeapon_Get" ID="{5BC1D2F8-BB3D-44F5-806E-FEC18C3C20AC}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Relationship_1" ID="{1873DAAF-B480-41B6-925D-3DFF6309CBF5}">
+					<ChildrenList>
+						<Action Name="" ID="{EE7D8458-6F07-4656-A40D-539634DB923C}" ShortID="719706619">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Relationship_Up_1" ID="{99557D46-B4C3-410E-B2D1-3893F950B66D}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Relationship_2" ID="{9F623A8F-104D-4DBE-83D6-FE72666BDBD0}">
+					<ChildrenList>
+						<Action Name="" ID="{B4712C13-033A-4142-A932-936D781E2F87}" ShortID="236398440">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Relationship_Up_2" ID="{6E36F243-2C7C-4225-9179-6C7980E08974}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Relationship_3" ID="{362B61EC-E137-4055-AA09-4AFB568A9B4A}">
+					<ChildrenList>
+						<Action Name="" ID="{C63E2C95-F77D-4B04-A48B-7F85C50E3911}" ShortID="949111170">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Relationship_Up_3" ID="{C3A97BDA-E262-4EA9-9A28-70BD0C159768}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Relationship_4" ID="{F0EC7568-A36E-4E90-ADCE-D1375F15C06C}">
+					<ChildrenList>
+						<Action Name="" ID="{19E6FBCC-F37A-49FF-95D5-F2D450865B4F}" ShortID="1061543171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Relationship_Up_4" ID="{4920C055-8699-4CF5-955A-E50F0071025C}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Shout" ID="{A0D02B2C-90E2-490D-AAA8-822A118664B1}">
+					<ChildrenList>
+						<Action Name="" ID="{A39B29F3-746D-4967-82EC-28D06AE1AA5A}" ShortID="864974325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shout" ID="{1F0CCF2B-569F-4E7D-9B78-AAC915A0532C}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Spawn" ID="{BFA4CC1D-CCF1-45BB-8AF3-C8716A98989E}">
+					<ChildrenList>
+						<Action Name="" ID="{5D332386-E6A5-42E2-AA8D-6D438C60F1D6}" ShortID="56041303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn" ID="{6E73D7CA-3AEE-4E94-AE7E-85BE2220E932}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Hurt" ID="{9047566C-A11E-4B4A-8897-C887F925B006}">
+					<ChildrenList>
+						<Action Name="" ID="{82871EE4-CCB0-428A-AF8F-D639B068EF07}" ShortID="682523884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hurt" ID="{04644A3D-79C5-498A-B32A-2960D3BA247F}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_LowHealth_1" ID="{7026F1AD-0CDD-4558-BA9C-8E0E0BCBD7E2}">
+					<ChildrenList>
+						<Action Name="" ID="{03043AC8-1345-4873-A5E2-07AECEAABD91}" ShortID="450988823">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Battle_BuffSelf_1" ID="{E2F62FC4-6D27-4913-9441-B50304B8AADB}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_LowHealth_2" ID="{CD14CA67-63C4-4C57-BA30-26FF651BF3AE}">
+					<ChildrenList>
+						<Action Name="" ID="{0B84D294-AF88-494D-B9B8-98D41FD89AE4}" ShortID="591758779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Battle_Damage_3" ID="{46D50977-4B43-4D33-9E8A-DC6A874609F5}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Memorial" ID="{D73C4F1B-FA4F-453F-B6B9-0388A008DA0F}">
+					<ChildrenList>
+						<Action Name="" ID="{127DB3D2-A24A-4F7E-9930-6CA10B6AF980}" ShortID="1059528237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MemorialLobby" ID="{0C45494C-ED92-4732-AFC4-9C53B90A6F91}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ShrineFail" ID="{0A2E9F97-C7C2-4964-8B4A-CC7C5E966727}">
+					<ChildrenList>
+						<Action Name="" ID="{B2ED9D77-42D2-4C0E-8252-2E3A43E13854}" ShortID="1068622778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Tactic_Defeat_2" ID="{E5BCD830-7CA3-415A-A3C7-A2191CDB1A23}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_TeleStart" ID="{340BD22A-2C45-4C5B-BEDF-812150E7D493}">
+					<ChildrenList>
+						<Action Name="" ID="{4B81D45A-714A-4526-A239-43124064F849}" ShortID="819491168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TeleporterStart" ID="{EC4E262F-4E4E-4E8F-B3FE-7430999C968D}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Move" ID="{0C0E69CF-C49D-4261-B7F5-072EE1C5E0C6}">
+					<ChildrenList>
+						<Action Name="" ID="{3B21AFA0-4E09-438C-9F66-371ACBBC9D86}" ShortID="955011497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Move" ID="{E0C4CCB9-C1CD-4CC6-86F6-283BC99DDEDC}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Move_Long" ID="{B2BD1AB9-EC26-4F33-AFB5-D70C976289AE}">
+					<ChildrenList>
+						<Action Name="" ID="{6DFE4F71-8009-4341-A7C0-64800A981F15}" ShortID="231954142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_Battle_TacticalAction_1" ID="{FF8234C3-7F4F-4AAB-8827-6A90C47680EC}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_Flower" ID="{17BC7D75-050A-4400-A01F-A9E5F05CBE0D}">
+					<ChildrenList>
+						<Action Name="" ID="{81087DF1-340F-472E-9CAB-6B6C020EA571}" ShortID="821515174">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flower" ID="{5F167980-634C-4E87-8FCD-265D02D00DBE}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_BadItem" ID="{45659AB9-DDC2-4342-9292-7862534BD8D6}">
+					<ChildrenList>
+						<Action Name="" ID="{88494D5E-27B7-4051-9021-BB72FDB8CC67}" ShortID="163104890">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BadItem" ID="{F9AB6751-5AAD-40FA-8AA3-E088714FC861}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ExSkill_1" ID="{7DC2FCC2-01D6-44A4-8B76-E13B5031834F}">
+					<ChildrenList>
+						<Action Name="" ID="{81C1109D-36C7-4C0A-AE16-27FE335FA655}" ShortID="675140073">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExSkill_1" ID="{9C608EE9-63B5-486F-9F30-D33843734411}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ExSkill_2" ID="{75A4A531-607A-4832-9BAA-568FA492BB5C}">
+					<ChildrenList>
+						<Action Name="" ID="{E8CBC50E-CBD2-4DC5-A395-98C42516F33F}" ShortID="200267786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExSkill_2" ID="{D162FE38-BFE3-4C82-A3C3-48627F86C43E}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ExSkill_3" ID="{9435D64B-BB44-4CAF-A6A4-B278386703C4}">
+					<ChildrenList>
+						<Action Name="" ID="{F0AC7263-24D4-4F8F-A248-D926208C3590}" ShortID="693252626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExSkill_3" ID="{82873D09-8E07-40C0-A81B-2BF9CDB44471}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ExSkill_Level_1" ID="{09D2E1F8-3174-43D8-B31E-DEC25F735850}">
+					<ChildrenList>
+						<Action Name="" ID="{D328AF01-70E2-4D77-B001-AF2859ED9F8C}" ShortID="624899557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExSkill_Level_1" ID="{B4C4EF2E-D478-4CF3-B5B0-8AE7E9B19341}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ExSkill_Level_2" ID="{E7B444EA-426E-41E3-80FB-90141F4E0A0E}">
+					<ChildrenList>
+						<Action Name="" ID="{C0B2C4E6-73D7-4DCC-8EE7-E21834F97E5D}" ShortID="862969981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExSkill_Level_2" ID="{ACD411E2-F531-4887-88A3-4FDF88CFDC67}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AtsukoSeeker_ExSkill_Level_3" ID="{6AD598D7-3607-420F-BCCA-E6172F797953}">
+					<ChildrenList>
+						<Action Name="" ID="{5C0E41A6-348D-46F1-BE69-60E635D0B72F}" ShortID="505110994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Atsuko_ExSkill_Level_3" ID="{70F6CEEE-5174-4873-AB86-A308BE0C5BBE}" WorkUnitID="{BB639121-1C7D-421C-ACCE-3A94A94A85A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
