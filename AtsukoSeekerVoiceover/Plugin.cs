@@ -23,6 +23,8 @@ namespace AtsukoSeekerVoiceover
     [BepInPlugin("com.Schale.AtsukoSeekerVoiceover", "AtsukoSeekerVoiceover", "1.0.0")]
     public class AtsukoSeekerVoiceover : BaseUnityPlugin
     {
+        public static ConfigEntry<KeyboardShortcut> buttonEx1, buttonEx2, buttonEx3, buttonExL1, buttonExL2, buttonExL3, buttonHurt, buttonHurtLong, buttonMuda,
+            buttonTitle, buttonThanks, buttonIntro, buttonDefeat, buttonIkou, buttonFlower1, buttonFlower2, buttonHmm, buttonGomen, buttonVictory;
         public static ConfigEntry<bool> enableVoicelines;
         public static bool playedSeasonalVoiceline = false;
         public static AssetBundle assetBundle;
@@ -46,6 +48,29 @@ namespace AtsukoSeekerVoiceover
             enableVoicelines = base.Config.Bind<bool>(new ConfigDefinition("Settings", "Enable Voicelines"), true, new ConfigDescription("Enable voicelines when using the Atsuko Seeker Skin."));
             enableVoicelines.SettingChanged += EnableVoicelines_SettingChanged;
 
+            buttonTitle = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Blue Archive"), KeyboardShortcut.Empty);
+            buttonIntro = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Introduction"), KeyboardShortcut.Empty);
+            buttonThanks = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Thanks"), KeyboardShortcut.Empty);
+            buttonMuda = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Muda"), KeyboardShortcut.Empty);
+            buttonIkou = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Ikou"), KeyboardShortcut.Empty);
+            buttonHmm = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Hmm?"), KeyboardShortcut.Empty);
+            buttonGomen = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Gomen"), KeyboardShortcut.Empty);
+            buttonDefeat = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Defeat"), KeyboardShortcut.Empty);
+            buttonVictory = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Victory"), KeyboardShortcut.Empty);
+            buttonFlower1 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Flowers 1"), KeyboardShortcut.Empty);
+            buttonFlower2 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Flowers 2"), KeyboardShortcut.Empty);
+
+            buttonEx1 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX 1"), KeyboardShortcut.Empty);
+            buttonEx2 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX 2"), KeyboardShortcut.Empty);
+            buttonEx3 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX 3"), KeyboardShortcut.Empty);
+
+            buttonExL1 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX Lv1"), KeyboardShortcut.Empty);
+            buttonExL2 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX Lv2"), KeyboardShortcut.Empty);
+            buttonExL3 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX Lv3"), KeyboardShortcut.Empty);
+
+            buttonHurt = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Hurt"), KeyboardShortcut.Empty);
+            buttonHurtLong = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Hurt (Long)"), KeyboardShortcut.Empty);
+
             if (BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey("com.rune580.riskofoptions"))
             {
                 RiskOfOptionsCompat();
@@ -62,6 +87,29 @@ namespace AtsukoSeekerVoiceover
         {
             RiskOfOptions.ModSettingsManager.SetModIcon(assetBundle.LoadAsset<Sprite>("atsuko_grin"));
             RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.CheckBoxOption(enableVoicelines));
+
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonTitle));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonThanks));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonIntro));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonMuda));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonDefeat));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonVictory));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonIkou));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonGomen));
+
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonEx1));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonEx2));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonEx3));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonExL1));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonExL2));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonExL3));
+
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonHurt));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonHurtLong));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonHmm));
+
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonFlower1));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.KeyBindOption(buttonFlower2));
         }
 
         private void OnLoad()
@@ -163,6 +211,21 @@ namespace AtsukoSeekerVoiceover
             AtsukoSeekerVoiceoverComponent.nseExL1 = RegisterNSE("Play_AtsukoSeeker_ExSkill_Level_1");
             AtsukoSeekerVoiceoverComponent.nseExL2 = RegisterNSE("Play_AtsukoSeeker_ExSkill_Level_2");
             AtsukoSeekerVoiceoverComponent.nseExL3 = RegisterNSE("Play_AtsukoSeeker_ExSkill_Level_3");
+
+            AtsukoSeekerVoiceoverComponent.nseTitle = RegisterNSE("Play_AtsukoSeeker_TitleDrop");
+            AtsukoSeekerVoiceoverComponent.nseThanks = RegisterNSE("Play_AtsukoSeeker_Thanks");
+            AtsukoSeekerVoiceoverComponent.nseIntro = RegisterNSE("Play_AtsukoSeeker_Intro");
+
+            AtsukoSeekerVoiceoverComponent.nseHurt = RegisterNSE("Play_AtsukoSeeker_Hurt");
+            AtsukoSeekerVoiceoverComponent.nseHurtLong = RegisterNSE("Play_AtsukoSeeker_Hurt_Long");
+
+            AtsukoSeekerVoiceoverComponent.nseIkou = RegisterNSE("Play_AtsukoSeeker_Ikou");
+            AtsukoSeekerVoiceoverComponent.nseHmm = RegisterNSE("Play_AtsukoSeeker_Hmm");
+            AtsukoSeekerVoiceoverComponent.nseGomen = RegisterNSE("Play_AtsukoSeeker_Gomen");
+            AtsukoSeekerVoiceoverComponent.nseVictory = RegisterNSE("Play_AtsukoSeeker_Victory");
+
+            AtsukoSeekerVoiceoverComponent.nseFlower1 = RegisterNSE("Play_AtsukoSeeker_Flower_1");
+            AtsukoSeekerVoiceoverComponent.nseFlower2 = RegisterNSE("Play_AtsukoSeeker_Flower_2");
         }
 
         public void RefreshNSE()

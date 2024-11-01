@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
+using static AtsukoSeekerVoiceover.AtsukoSeekerVoiceover;
 
 namespace AtsukoSeekerVoiceover.Components
 {
@@ -18,7 +19,8 @@ namespace AtsukoSeekerVoiceover.Components
         private float specialCooldown = 0f;
         private float shrineFailCooldown = 0f;
 
-        public static NetworkSoundEventDef nseBlock, nseShout, nseShrineFail, nseMove, nseMoveLong, nseEx1, nseEx2, nseEx3, nseExL1, nseExL2, nseExL3;
+        public static NetworkSoundEventDef nseBlock, nseShout, nseShrineFail, nseMove, nseMoveLong, nseEx1, nseEx2, nseEx3, nseExL1, nseExL2, nseExL3, nseTitle,
+            nseHurt, nseHurtLong, nseThanks, nseIntro, nseIkou, nseHmm, nseGomen, nseVictory, nseFlower1, nseFlower2;
 
         protected override void FixedUpdate()
         {
@@ -121,7 +123,14 @@ namespace AtsukoSeekerVoiceover.Components
 
         public void PlayFlowerItem()
         {
-            TryPlaySound("Play_AtsukoSeeker_Flower", 3.6f, false);
+            if (Util.CheckRoll(50f))
+            {
+                TryPlaySound("Play_AtsukoSeeker_Flower_1", 3.6f, false);
+            }
+            else
+            {
+                TryPlaySound("Play_AtsukoSeeker_Flower_2", 3.1f, false);
+            }
         }
 
         public void PlayBadItem()
@@ -176,15 +185,15 @@ namespace AtsukoSeekerVoiceover.Components
         {
             if (specialCooldown > 0f) return;
 
-            if (Util.CheckRoll(0.5f))
+            if (Util.CheckRoll(50f))
             {
-                if (Util.CheckRoll(1f / 3f))
+                if (Util.CheckRoll(100f/3f))
                 {
                     TryPlayNetworkSound(nseEx1, 3.3f, false);
                 }
                 else
                 {
-                    if (Util.CheckRoll(0.5f))
+                    if (Util.CheckRoll(50f))
                     {
                         TryPlayNetworkSound(nseEx2, 2.8f, false);
                     }
@@ -196,13 +205,13 @@ namespace AtsukoSeekerVoiceover.Components
             }
             else
             {
-                if (Util.CheckRoll(1f / 3f))
+                if (Util.CheckRoll(100f / 3f))
                 {
                     TryPlayNetworkSound(nseExL1, 2.2f, false);
                 }
                 else
                 {
-                    if (Util.CheckRoll(0.5f))
+                    if (Util.CheckRoll(50f))
                     {
                         TryPlayNetworkSound(nseExL2, 1.9f, false);
                     }
@@ -259,6 +268,106 @@ namespace AtsukoSeekerVoiceover.Components
                 bool played;
                 played = TryPlayNetworkSound(nseShrineFail, 1.2f, false);
                 if (played) shrineFailCooldown = 60f;
+            }
+        }
+
+        protected override void CheckInputs()
+        {
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonTitle))
+            {
+                TryPlayNetworkSound(nseTitle, 1.4f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonThanks))
+            {
+                TryPlayNetworkSound(nseThanks, 1.3f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonIntro))
+            {
+                TryPlayNetworkSound(nseIntro, 13f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonMuda))
+            {
+                TryPlayNetworkSound(nseBlock, 0.1f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonHurt))
+            {
+                TryPlayNetworkSound(nseHurt, 0.1f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonHurtLong))
+            {
+                TryPlayNetworkSound(nseHurtLong, 0.1f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonEx1))
+            {
+                TryPlayNetworkSound(nseEx1, 3.3f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonEx2))
+            {
+                TryPlayNetworkSound(nseEx2, 2.8f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonEx3))
+            {
+                TryPlayNetworkSound(nseEx3, 1.7f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonExL1))
+            {
+                TryPlayNetworkSound(nseExL1, 2.2f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonExL2))
+            {
+                TryPlayNetworkSound(nseExL2, 1.9f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonExL3))
+            {
+                TryPlayNetworkSound(nseExL3, 3f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonDefeat))
+            {
+                TryPlayNetworkSound(nseShrineFail, 1.2f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonIkou))
+            {
+                TryPlayNetworkSound(nseIkou, 0.3f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonHmm))
+            {
+                TryPlayNetworkSound(nseHmm, 0.2f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonGomen))
+            {
+                TryPlayNetworkSound(nseGomen, 0.3f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonVictory))
+            {
+                TryPlayNetworkSound(nseVictory, 1.6f, false);
+                return;
+            }
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonFlower1))
+            {
+                TryPlayNetworkSound(nseFlower1, 3.6f, false);
+                return;
+            }
+
+            if (BaseVoiceoverLib.Utils.GetKeyPressed(AtsukoSeekerVoiceover.buttonFlower2))
+            {
+                TryPlayNetworkSound(nseFlower2, 3.1f, false);
+                return;
             }
         }
 
